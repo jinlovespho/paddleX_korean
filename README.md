@@ -37,12 +37,16 @@ nltk.download('punkt_tab')
 ```
 ocr_dataset/
     └── test_images/
-        └── 000000030633-01_007.png 
-        └── ...
+           └── 000000030633-01_007.png 
+           └── ...
     └── test_anns/
-        └── 000000030633-01_007.json
-        └── ...
+           └── 000000030633-01_007.json
+           └── ...
 ```
+
+## ⚓️ Checkpoint Structure
+#### Download ckpt/ and place it inside paddleX_korean folder
+
 
 ## 🚀 Evaluation
 
