@@ -7,8 +7,8 @@ Fine-tuned PaddleX models for Korean OCR in collaboration with PlantyNet.
 ## ⚙️ Dependencies and Installation
 ```
 # clone repo 
-git clone https://github.com/jinlovespho/PaddleX.git -b pho
-cd PaddleX
+git clone https://github.com/jinlovespho/paddleX_korean.git
+cd paddleX_korean
 
 # create conda env
 conda create -n paddlex python=3.9 -y 
