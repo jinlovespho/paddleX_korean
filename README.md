@@ -21,15 +21,14 @@ pip install -e .
 paddlex --install PaddleOCR
 pip install paddlex[ocr]==3.0
 
-
 # install additional libraries
-pip install albucore==0.0.16
 pip install konlpy 
 pip install git+https://github.com/haven-jeon/PyKoSpacing.git
 pip install numpy==1.26.4 
 pip install nltk
 
-# additionally download (if error appears)
+# additionally install if error appears
+pip install albucore==0.0.16
 nltk.download('punkt')
 nltk.download('punkt_tab')
 ```
