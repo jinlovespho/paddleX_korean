@@ -7,7 +7,7 @@ python test.py \
     --gpu 1 \
 
 
-# example script
+## example script
 # python test.py \
 #     --pipeline OCR \
 #     --korean_font_path fonts/NanumGothic.ttf \
