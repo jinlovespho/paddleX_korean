@@ -1,5 +1,6 @@
 # Paddle套件仓库
-paddlex/repo_manager/repos/*
+# paddlex/repo_manager/repos/
+
 
 # paddlemodel
 *.log
