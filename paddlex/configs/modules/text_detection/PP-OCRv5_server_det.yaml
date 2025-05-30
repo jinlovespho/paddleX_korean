@@ -2,9 +2,9 @@ Global:
   model: PP-OCRv5_server_det
   mode: check_dataset # check_dataset/train/evaluate/predict
   module: text_det
-  dataset_dir: "/paddle/dataset/paddlex/ocr_det/ocr_det_dataset_examples"
-  device: gpu:0,1,2,3
-  output: "output"
+  dataset_dir: 
+  device: 
+  output: 
 
 CheckDataset:
   convert:
@@ -16,14 +16,16 @@ CheckDataset:
     val_percent: null
 
 Train:
-  epochs_iters: 100
-  batch_size: 4
+  epochs_iters: 200
+  batch_size: 16
   learning_rate: 0.001
   pretrain_weight_path: https://paddle-model-ecology.bj.bcebos.com/paddlex/official_pretrained_model/PP-OCRv5_server_det_pretrained.pdparams
+  # resume_path: pho_train_result/pho_det/train_gpu4567_ep100_bs16_lr1e-3/iter_epoch_100/iter_epoch_100.pdparams
+  # resume_path: pho_train_result/pho_det/resume_v5server_train_gpu67_ep200_bs16_lr1e-3/iter_epoch_200/iter_epoch_200.pdparams
   resume_path: null
   log_interval: 10
   eval_interval: 1
-  save_interval: 1
+  save_interval: 10
 
 Evaluate:
   weight_path: "output/best_accuracy/best_accuracy.pdparams"

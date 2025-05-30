@@ -26,8 +26,8 @@ SubModules:
     module_name: text_detection
     # model_name: PP-OCRv5_mobile_det
     model_name: PP-OCRv5_server_det
-    model_dir: ckpt/det_ckpt/best_accuracy/inference
-    # model_dir: 
+    # model_dir: ckpt/det_ckpt/best_accuracy/inference
+    model_dir: 
     limit_side_len: 736
     limit_type: min
     max_side_limit: 4000
@@ -44,7 +44,7 @@ SubModules:
     # model_name: PP-OCRv5_mobile_rec 
     # model_name: PP-OCRv5_server_rec
     model_name: korean_PP-OCRv3_mobile_rec
-    model_dir: ckpt/rec_ckpt/best_accuracy/inference
-    # model_dir: 
+    # model_dir: ckpt/rec_ckpt/best_accuracy/inference
+    model_dir: 
     batch_size: 6
     score_thresh: 0.0

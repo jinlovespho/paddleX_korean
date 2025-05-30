@@ -178,3 +178,4 @@ cython_debug/
 
 ckpt/
 test_results/
+train_results/

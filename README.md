@@ -106,6 +106,30 @@ python test.py \
 
 
 
+## 🛠️ Training (fine-tuning) 
+
+### 1. Detector Training 
+
+#### Running detector(PP-OCRv5_mobile/server) training script
+```
+# training a light detector(mobile)
+bash scripts/train/train_det_pp-ocrv5_mobile.sh 
+
+# training a heavy detector(server)
+bash scripts/train/train_det_pp-ocrv5_server.sh 
+```
+
+
+
+### 2. Recognizer Training 
+
+#### Running recognizer(korean_PP-OCRv3_mobile) training script
+
+```
+bash scripts/train/train_rec_korean_pp-ocrv3_mobile.sh 
+```
+
+
 
 
 
